@@ -1,4 +1,4 @@
-[![Slam](https://telegra.ph/file/db03910496f06094f1f7a.jpg)](https://youtu.be/Pk_TthHfLeE)
+[![Slam](https://imagetot.com/images/2021/06/17/d7e86862ce2686f4c6c6596bfa72785d.jpg)](https://youtu.be/Pk_TthHfLeE)
 
 # Deepak Clouds Mirror
 ![GitHub Repo stars](https://img.shields.io/github/stars/breakdowns/slam-mirrorbot?color=blue&style=flat)
