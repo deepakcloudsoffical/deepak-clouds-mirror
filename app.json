@@ -7,9 +7,9 @@
       "telegram",
       "python"
     ],
-    "repository": "https://github.com/breakdowns/slam-mirrorbot",
-    "website": "https://github.com/breakdowns/slam-mirrorbot",
-    "success_url": "https://t.me/SlamMirrorSupport",
+    "repository": "https://github.com/blackdeep04/deepak-clouds-mirror",
+    "website": "https://github.com/blackdeep04/deepak-clouds-mirror",
+    "success_url": "https://t.me/cloudsmirror",
     "stack": "container",
     "env": {
       "ENV": {
@@ -75,8 +75,8 @@
         "required": true
       },
       "UPSTREAM_REPO": {
-        "description": "Link for Bot Upstream Repo, If you want default update, Fill https://github.com/breakdowns/slam-mirrorbot.",
-        "value": "https://github.com/breakdowns/slam-mirrorbot",
+        "description": "Link for Bot Upstream Repo, If you want default update, Fill https://github.com/blackdeep04/deepak-clouds-mirror.",
+        "value": "https://github.com/blackdeep04/deepak-clouds-mirror",
         "required": true
       },
       "UPSTREAM_BRANCH": {
@@ -143,11 +143,7 @@
       "SHORTENER_API": {
         "description": "Fill your shortener api key if you are using shortener.",
         "required": false
-      },
-      "IMAGE_URL": {
-        "description": "Show Image/Logo in /start message, Use telegra.ph or any direct link image.",
-        "value": "https://telegra.ph/file/db03910496f06094f1f7a.jpg",
-        "required": false
+     
        },
       "TOKEN_PICKLE_URL": {
         "description": "(Optional) Only if you want to load your token.pickle externally from an index link. Fill this with the direct link of that file.",
