@@ -1,17 +1,17 @@
 [![Slam](https://imagetot.com/images/2021/06/17/d7e86862ce2686f4c6c6596bfa72785d.jpg)](https://youtu.be/Pk_TthHfLeE)
 
 # Deepak Clouds Mirror
-![GitHub Repo stars](https://img.shields.io/github/stars/breakdowns/slam-mirrorbot?color=blue&style=flat)
-![GitHub forks](https://img.shields.io/github/forks/breakdowns/slam-mirrorbot?color=green&style=flat)
-![GitHub issues](https://img.shields.io/github/issues/breakdowns/slam-mirrorbot)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/breakdowns/slam-mirrorbot)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/breakdowns/slam-mirrorbot)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/breakdowns/slam-mirrorbot)
-![GitHub contributors](https://img.shields.io/github/contributors/breakdowns/slam-mirrorbot?style=flat)
-![GitHub repo size](https://img.shields.io/github/repo-size/breakdowns/slam-mirrorbot?color=red)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/breakdowns/slam-mirrorbot)
-![GitHub](https://img.shields.io/github/license/breakdowns/slam-mirrorbot)
-[![Slam Mirror Support](https://img.shields.io/badge/slam%20mirror%20bot-support%20group-blue)](https://t.me/SlamMirrorSupport)
+![GitHub Repo stars](https://img.shields.io/github/stars/blackdeep04/deepak-clouds-mirror?color=blue&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/blackdeep04/deepak-clouds-mirror?color=green&style=flat)
+![GitHub issues](https://img.shields.io/github/issues/breakdowns/slam-miblackdeep04/deepak-clouds-mirror)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/blackdeep04/deepak-clouds-mirror)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/blackdeep04/deepak-clouds-mirror)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/blackdeep04/deepak-clouds-mirror)
+![GitHub contributors](https://img.shields.io/github/contributors/blackdeep04/deepak-clouds-mirror?style=flat)
+![GitHub repo size](https://img.shields.io/github/repo-size/blackdeep04/deepak-clouds-mirror?color=red)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/blackdeep04/deepak-clouds-mirror)
+![GitHub](https://img.shields.io/github/license/blackdeep04/deepak-clouds-mirror)
+[![Slam Mirror Support](https://img.shields.io/badge/Deepak%20Clouds%20Mirro-support%20group-blue)](https://t.me/cloudsmirror)
 
 **Deepak Clouds Torrent** is a _multipurpose_ Telegram Bot writen in Python for mirroring files on the Internet to our beloved Google Drive.
 
@@ -74,7 +74,7 @@ Deploying is pretty much straight forward and is divided into several steps as f
 
 - Clone this repo:
 ```
-git clone https://github.com/breakdowns/slam-mirrorbot mirrorbot/
+git clone https://github.com/blackdeep04/deepak-clouds-mirror/
 cd mirrorbot
 ```
 
@@ -136,14 +136,14 @@ Fill up rest of the fields. Meaning of each fields are discussed below:
 - **DOWNLOAD_DIR**: The path to the local folder where the downloads should be downloaded to
 - **DOWNLOAD_STATUS_UPDATE_INTERVAL**: A short interval of time in seconds after which the Mirror progress message is updated. (I recommend to keep it `5` seconds at least)  
 - **AUTO_DELETE_MESSAGE_DURATION**: Interval of time (in seconds), after which the bot deletes it's message (and command message) which is expected to be viewed instantly. (**Note**: Set to `-1` to never automatically delete messages)
-- **UPSTREAM_REPO**: Link for Bot Upstream Repo, if you want default update, fill ```https://github.com/breakdowns/slam-mirrorbot```.
+- **UPSTREAM_REPO**: Link for Bot Upstream Repo, if you want default update, fill ```https://github.com/blackdeep04/deepak-clouds-mirror/```.
 - **UPSTREAM_BRANCH**: Branch name for Bot Upstream Repo (Recommended using master branch)
 ### Optional Field
 - **ACCOUNTS_ZIP_URL**: (Optional) Only if you want to load your service accs externally from an index link. Archive your service accs json files to a zip file directly (don't archive the accounts folder. Select all the jsons inside and zip them only instead. Name the zip file with whatever you want, it doesn't matter). Fill this with the direct link of that file.
 - **TOKEN_PICKLE_URL**: (Optional) Only if you want to load your token.pickle externally from an index link. Fill this with the direct link of that file.
 - **AUTHORIZED_CHATS**: Fill user_id and chat_id of you want to authorize.
 - **IS_TEAM_DRIVE**: Set to `True` if `GDRIVE_FOLDER_ID` is from a Team Drive else `False` or Leave it empty.
-- **USE_SERVICE_ACCOUNTS**: (Leave empty if unsure) Whether to use Service Accounts or not. For this to work see [Using service accounts](https://github.com/breakdowns/slam-mirrorbot#generate-service-accounts-what-is-service-account) section below.
+- **USE_SERVICE_ACCOUNTS**: (Leave empty if unsure) Whether to use Service Accounts or not. For this to work see [Using service accounts](https://github.com/blackdeep04/deepak-clouds-mirror#generate-service-accounts-what-is-service-account) section below.
 - **INDEX_URL**: Refer to https://github.com/ParveenBhadooOfficial/Google-Drive-Index The URL should not have any trailing '/'
 - **MEGA_API_KEY**: Mega.nz api key to mirror mega.nz links. Get it from [Mega SDK Page](https://mega.nz/sdk)
 - **MEGA_EMAIL_ID**: Your email id you used to sign up on mega.nz for using premium accounts (Leave th)
@@ -214,7 +214,7 @@ sudo docker run mirrorbot
 
 ## Deploying on Heroku
 
-- Give stars and Fork this repo then upload **token.pickle** to your forks, or you can upload your **token.pickle** to your Index and put your **token.pickle** link to **TOKEN_PICKLE_URL**. How to generate **token.pickle**? [Read here](https://github.com/breakdowns/slam-mirrorbot#getting-google-oauth-api-credential-file)
+- Give stars and Fork this repo then upload **token.pickle** to your forks, or you can upload your **token.pickle** to your Index and put your **token.pickle** link to **TOKEN_PICKLE_URL**. How to generate **token.pickle**? [Read here](https://github.com/blackdeep04/deepak-clouds-mirror/#getting-google-oauth-api-credential-file)
 - Hit the **DEPLOY TO HEROKU** button and follow the further instructions in the screen
 - Recommended to use 1 App in 1 Heroku accounts
 
