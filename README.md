@@ -212,16 +212,7 @@ sudo docker build . -t mirrorbot
 sudo docker run mirrorbot
 ```
 
-//## Deploying on Heroku
-
-//- Give stars and Fork this repo then upload **token.pickle** to your forks, or you can upload your **token.pickle** to your Index and put your **token.pickle** link to **TOKEN_PICKLE_URL**. How to generate **token.pickle**? [Read here](https://github.com/blackdeep04/deepak-clouds-mirror/#getting-google-oauth-api-credential-file)
-//- Hit the **DEPLOY TO HEROKU** button and follow the further instructions in the screen
-//- Recommended to use 1 App in 1 Heroku accounts
-
 <p><a href="https://heroku.com/deploy"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
-
-//## Deploying on Heroku with heroku-cli and Goorm IDE
-//<p><a href="https://telegra.ph/How-to-Deploy-a-Mirror-Bot-to-Heroku-with-CLI-05-06"> <img src="https://img.shields.io/badge/see%20on%20telegraph-grey?style=for-the-badge" width="190""/></a></p>
 
 # Using Service Accounts for uploading to avoid user rate limit
 For Service Account to work, you must set **USE_SERVICE_ACCOUNTS=**"True" in config file or environment variables, 
