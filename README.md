@@ -304,4 +304,4 @@ Where host is the name of extractor (eg. Youtube, Twitch). Multiple accounts of 
 Thanks to:
 - [Izzy12](https://github.com/lzzy12/) for original repo
 
-And many more people who aren't mentioned here, but may be found in [Contributors](https://github.com/breakdowns/slam-mirrorbot/graphs/contributors).
+And many more people who aren't mentioned here, but may be found in [Contributors]
