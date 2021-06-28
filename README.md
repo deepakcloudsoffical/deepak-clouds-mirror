@@ -19,16 +19,13 @@
 ## Additional Features
 - Get detailed info about replied media (Only for Telegram file)
 - Speedtest with picture results
-- Stop duplicate cloning Google Drive & mirroring Mega support
+- Stop duplicate cloning Google Drive
+- Mega support Added
 - Limiting size Torrent/Direct, Mega, cloning Google Drive support
 - Sudo with Database support
 - Multiple Trackers support
-- Check Heroku dynos stats
-- Heroku config support
-- Updater (**NOTE**: You must upload your **token.pickle** to Index and fill your **token.pickle** url to **TOKEN_PICKLE_URL**, because your **token.pickle** will deleted after update) 
 - Extracting **tar.xz** support
 - Create Tar Google Drive folder
-- Custom image support
 - Counting file/folder
 - Shell and Executor
 - View Link button
@@ -109,9 +106,6 @@ pip3 install -r requirements-cli.txt
 
 **2. Using Heroku PostgreSQL**
 <p><a href="https://dev.to/prisma/how-to-setup-a-free-postgresql-database-on-heroku-1dc1"> <img src="https://img.shields.io/badge/see%20on%20dev.to-black?style=for-the-badge&logo=dev-dot-to" width="190""/></a></p>
-
-**NOTE**: If you are deploying on Heroku using Heroku button, no need to generate database manually, because it will automatic generate database when first deploying
-
 </details>
 
 ## Setting up config file
@@ -295,4 +289,4 @@ Where host is the name of extractor (eg. Youtube, Twitch). Multiple accounts of 
 Thanks to:
 - [Izzy12](https://github.com/lzzy12/) for original repo
 
-And many more people who aren't mentioned here, but may be found in [Contributors]
+And many more people who aren't mentioned here.
