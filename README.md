@@ -3,7 +3,7 @@
 # Deepak Clouds Mirror
 ![GitHub Repo stars](https://img.shields.io/github/stars/blackdeep04/deepak-clouds-mirror?color=blue&style=flat)
 ![GitHub forks](https://img.shields.io/github/forks/blackdeep04/deepak-clouds-mirror?color=green&style=flat)
-![GitHub issues](https://img.shields.io/github/issues//blackdeep04/deepak-clouds-mirror/deepak-clouds-mirror)
+![GitHub issues](https://img.shields.io/github/issues/blackdeep04/deepak-clouds-mirror/deepak-clouds-mirror)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/blackdeep04/deepak-clouds-mirror)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/blackdeep04/deepak-clouds-mirror)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/blackdeep04/deepak-clouds-mirror)
