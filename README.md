@@ -14,7 +14,7 @@
 [![Slam Mirror Support](https://img.shields.io/badge/Deepak%20Clouds%20Mirror-support%20group-blue)](https://telegram.dog/cloudsmirror)
 
 **Deepak Clouds Torrent** is a _multipurpose_ Telegram Bot writen in Python for mirroring files on the Internet to our beloved Google Drive.
-[![Support Group](https://telegram.dog/cloudsmirror)
+#Support Group.(https://telegram.dog/cloudsmirror)
 # Features supported:
 ## Additional Features
 - Get detailed info about replied media (Only for Telegram file)
