@@ -70,6 +70,7 @@ for i in aa:
 pbar.finish()
 print('Adding...')
 batch.execute()
+#test123
 
 print('Complete.')
 hours, rem = divmod((time.time() - stt), 3600)
